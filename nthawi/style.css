@@ -1,0 +1,137 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: black;
+   margin: 0;
+   padding: 20px;
+   position: relative; /* For absolute positioning of logo */
+}
+h1 {
+   text-align: center;
+   color: azure;
+}
+h2 {
+   text-align: center;
+   color: goldenrod;
+}
+.search-container {
+   text-align: center;
+   margin: 20px 0;
+}
+#searchInput {
+   padding: 10px;
+   width: 200px;
+}
+button {
+   padding: 10px;
+   cursor: pointer;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   margin-left: 10px;
+}
+button:hover {
+   background-color: #45a049;
+}
+#music-videos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.card {
+   margin: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   overflow: hidden;
+   width: 240px;
+   background-color: white;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.video-poster {
+   width: 100%;
+   height: auto;
+}
+.card-content {
+   padding: 10px;
+}
+.controls {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.downloadButton {
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+   padding: 5px;
+   background-color: #007BFF;
+   color: white;
+   text-decoration: none;
+   border-radius: 3px;
+}
+.downloadButton:hover {
+   background-color: #0056b3;
+}
+.commentSection {
+   margin-top: 10px;
+}
+.commentInput {
+   width: 100%;
+   padding: 5px;
+}
+.commentButton {
+   margin-top: 5px;
+   padding: 5px;
+}
+.commentList {
+   margin-top: 10px;
+}
+audio {
+   width: 100%;
+   margin-top: 10px;
+}
+.logo {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+.logo img {
+   width: 100px; /* Adjust the size as needed */
+}
+footer {
+   text-align: center;
+   margin-top: 20px;
+   padding: 10px 0;
+   background-color: #eee;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+.sidebar {
+   width: 200px;
+   background-color:black;
+   color: #fff;
+   padding: 15px;
+}
+
+.sidebar h2 {
+   text-align: center;
+}
+
+.sidebar ul {
+   list-style: none;
+   padding: 0;
+}
+
+.sidebar ul li {
+   margin: 10px 0;
+}
+
+.sidebar ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+   text-decoration: underline;
+}
